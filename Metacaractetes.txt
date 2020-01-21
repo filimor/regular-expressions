@@ -1,0 +1,33 @@
+Representantes
+
+Metacaractere   Nome                Significado
+=============   ====                ===========
+.               Ponto               Um caractere qualquer
+[]              Conjunto            Conjunto de caracteres permitidos
+[^]             Conjunto Negado     Conjunto de caracteres proibidos
+
+Quantificadores
+
+Metacaractere   Nome                Significado
+=============   ====                ===========
+?               Opcional            Zero ou um
+*               Asterisco           Zero ou mais
++               Mais                Um ou mais
+{n, ma}         Chaves              De n até m
+
+Âncoras
+
+Metacaractere   Nome                Significado
+=============   ====                ===========
+^               Circunflexo         Início de linha
+$               Cifrão              Fim de linha
+\b              Borda               Início ou fim de palavra
+
+Outros Metacaracteres
+
+Metacaractere   Nome                Significado
+=============   ====                ===========
+\               Escape              Uso de metacaractere como literal
+|               Ou                  Operação de Ou
+( )             Grupo               Define um Grupo
+\1...\9         Retrovisor          Resgata grupos já definidos
